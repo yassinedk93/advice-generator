@@ -1,0 +1,53 @@
+body {
+  background-color: hsl(218, 23%, 16%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+#main-container {
+  position: relative;
+  display: flex;
+  width: 50%;
+  height: 290px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(38, 54, 79);
+  background-color: rgb(38, 54, 79);
+  padding: 20px;
+  border-radius: 50px;
+}
+#p2{
+  color: white;
+  font-size: 30px;
+}
+#p1{
+  color: rgb(51, 255, 162);
+}
+#img1{
+  margin-top: 100px;
+}
+#img2 {
+  position: absolute;
+  bottom: -15px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  z-index: 2;
+  background-color: rgb(51, 255, 162);
+  border: 2px solid rgb(51, 255, 162);
+  padding: 10px;
+  border-radius: 50%;
+}
+#advice {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 100%;
+}
